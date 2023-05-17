@@ -1,0 +1,40 @@
+@import "../../Styles/main.scss";
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.detail-wrapper {
+	width: 400px;
+}
+
+.image-detail-wrapper {
+	width: 100%;
+}
+
+.image-detail-wrapper img {
+	width: 100%;
+}
+
+.detail-text {
+	width: 100%;
+	overflow: hidden;
+}
+
+.detail-text a {
+	text-decoration: none;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+	width: 100%;
+	padding: $link-p;
+	font-family: $font-popins;
+	background-color: $primary;
+}

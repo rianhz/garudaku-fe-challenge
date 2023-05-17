@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+// Font
+$font-popins: "Poppins", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+
+$text-lg: 24px;
+$text-md: 18px;
+$text-sm: 14px;
+
+// color
+
+$primary: #0275d8;
+$white-gray: rgb(242, 239, 239);
+$black: #000;
+$white: #fff;
+$gray: rgb(188, 186, 186);
+
+$container: 100%;
+
+// logo
+$logo: 200px;
+
+// Navbar
+$nav-item-font-size: 18px;
+$nav-item-font-family: "Roboto", sans-serif;
+
+// Card
+$card-width: 16rem;
+$card-height: 27rem;
+$card-radius: 15px;
+$card-shadow: 0 3px 5px -2px black;
+$card-header-width: 100%;
+$card-header-height: 150px;
+$card-header-radius: 15px;
+$card-body-h: 200px;
+
+// Link
+$link-w: 90%;
+$link-p: 10px 0;
+
+// Button
+$btn-w: 90%;
+$btn-p: 10px 0;
+
+// Input
+$input-text-w: 100%;
+$input-text-p: 10px 0;
+$input-text-border: 1px solid rgb(180, 178, 178);
+$input-text-radius: 20px;

@@ -1,0 +1,44 @@
+@import "../../Styles/main.scss";
+
+.card {
+	width: $card-width;
+	height: $card-height;
+	box-shadow: $card-shadow;
+	border-radius: $card-radius;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-header {
+	width: $card-header-width;
+	height: $card-header-height;
+	border-radius: $card-header-radius;
+}
+
+.card-header img {
+	width: 100%;
+	height: 100%;
+}
+
+.card-body {
+	width: 100%;
+	height: $card-body-h;
+	overflow: hidden;
+}
+
+a.detail-link {
+	margin-top: auto;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+	width: $link-w;
+	padding: $link-p;
+	font-family: $font-popins;
+	background-color: $primary;
+}
