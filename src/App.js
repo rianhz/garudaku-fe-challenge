@@ -1,11 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-
 import Navbar from "./components/Navbar/Navbar";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import axios from "axios";
 import { getAllNews } from "./features/newSlice";
-import "./App.scss";
+import "./Styles/main.scss";
 import ListNews from "./pages/ListPages/ListNews";
 import Detail from "./pages/DetailPages/Detail";
 import EditPages from "./pages/EditPages/EditPages";
